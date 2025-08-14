@@ -1,174 +1,125 @@
 import Head from "next/head";
 
-export default function PrivacyPolicy() {
+export default function TermsAndConditions() {
   return (
     <>
       <Head>
-        <title>Privacy Policy - Connect and Close</title>
+        <title>Terms and Conditions - Connect and Close</title>
         <meta
           name="description"
-          content="Privacy policy of Connect and Close"
+          content="Terms and conditions for the use of the Connect and Close website"
         />
       </Head>
       <main className="bg-gray-50 text-gray-800 px-6 py-12">
-        <div className="max-w-3xl mx-auto bg-white p-8 shadow-md rounded-lg">
+        <div className="max-w-4xl mx-auto bg-white p-8 shadow-md rounded-lg">
           <h1 className="text-3xl font-bold text-gray-900 mb-4">
-            Privacy Policy
+            Terms and Conditions
           </h1>
           <p className="mb-6">
-            <strong>Effective Date:</strong> April 30, 2025
+            Work that inspires loyalty and transforms your business.
+          </p>
+          <p className="mb-6">
+            Below are the terms and conditions for the use of the information
+            contained on the Connect and Close website. By accessing and using
+            the website, you expressly acknowledge and accept the terms of use
+            described here.
+          </p>
+          <p className="mb-6">
+            The purpose of the website is to provide users with easy access to
+            information about Connect and Close and its activities, in
+            accordance with the principles of transparency and the right of
+            access to information.
           </p>
 
-          {/* 1. Data Controller */}
+          {/* Considering */}
           <h2 className="text-2xl font-semibold text-gray-800 mt-8 mb-3">
-            1. Data Controller
+            Considering
           </h2>
-          <p>
-            The data controller for the processing of personal data is{" "}
-            <strong>Connect and Close</strong>, an independent venture without
-            formal company registration.
-          </p>
-          <p className="mb-4">
-            <strong>Contact email:</strong>{" "}
+          <ol className="list-decimal pl-5 space-y-4 mb-6">
+            <li>
+              The material contained on the website consists mainly of
+              information about Connect and Close and does not address specific
+              circumstances related to particular individuals.
+            </li>
+            <li>
+              These terms apply to all information, resources, tools, and forms
+              provided through the website. However, the data provided here come
+              from multiple sources and are protected by law; therefore, any
+              commercialization or exploitation of the website’s content—
+              including information, photographs, images, and in general all
+              material contained therein—is prohibited.
+              <br />
+              <br />
+              The use of the information for personal, institutional, and
+              non-commercial purposes is authorized, provided that the following
+              exact citation is made:{" "}
+              <em>
+                "Source: Connect and Close - www.connectandclose.io"
+              </em>
+              . Copying or reproducing the data in any electronic medium
+              (networks, databases, CDs, external storage devices, etc.) that
+              allows the availability of this information to multiple users
+              without prior approval from Connect and Close is expressly
+              prohibited.
+              <br />
+              <br />
+              The Connect and Close website may contain links to external pages
+              over which Connect and Close exercises no control and for which it
+              assumes no responsibility. The content of such links is the sole
+              responsibility of the respective entities.
+            </li>
+            <li>
+              Connect and Close, through its website, reserves the right to
+              modify the contents, materials, products, and services published,
+              as well as the terms and conditions for the use of this portal, in
+              accordance with new legal requirements, business practices and
+              trends, or institutional decisions.
+            </li>
+            <li>
+              The content and information published on the website are the
+              property of Connect and Close. Partial reproduction, translation,
+              inclusion, transmission, storage, or access through analog,
+              digital, or any other systems or technologies is prohibited
+              without prior written authorization from Connect and Close.
+              Copying, reproducing, modifying, transmitting, licensing, or
+              selling any information taken from the website is expressly
+              prohibited.
+            </li>
+            <li>
+              By using the website, you accept these terms and conditions. Any
+              materials obtained and downloaded are at the user’s own risk, and
+              the user will be solely responsible for any computer or device
+              damage resulting from downloading and using such materials. Under
+              no circumstances shall Connect and Close be liable for damages
+              resulting from data loss, software or hardware performance, or the
+              use of services or information from the website.
+              <br />
+              <br />
+              Matters relating to privacy, data processing, and copyright can be
+              consulted in the relevant policies:
+              <ul className="list-disc pl-5 mt-2">
+                <li>Information Security and Privacy Policy</li>
+                <li>Personal Data Processing Policy</li>
+                <li>Copyright Policy</li>
+              </ul>
+            </li>
+          </ol>
+
+          {/* Contact */}
+          <p className="mb-6">
+            The institutional contact for matters related to these terms and
+            conditions is:
+            <br />
+            <strong>Email:</strong>{" "}
             <a
-              href="mailto:contact@connectandclose.com"
+              href="mailto:Support@connectandclose.io"
               className="text-blue-600 hover:underline"
             >
-              contact@connectandclose.com
+              Support@connectandclose.io
             </a>
+            <br />
+            <strong>Phone:</strong> +57 310 634 4695
           </p>
-
-          {/* 2. Information We Collect */}
-          <h2 className="text-2xl font-semibold text-gray-800 mt-8 mb-3">
-            2. Information We Collect
-          </h2>
-          <ul className="list-disc pl-5 space-y-2 mb-4">
-            <li>First and last name</li>
-            <li>Email address</li>
-            <li>Phone number</li>
-            <li>Demographic information (age, location, etc.)</li>
-            <li>IP address and browsing data</li>
-            <li>Data provided through Facebook Lead Ads forms</li>
-            <li>Information collected via cookies</li>
-          </ul>
-
-          {/* 3. Facebook Lead Ads */}
-          <h2 className="text-2xl font-semibold text-gray-800 mt-8 mb-3">
-            3. Data Collection from Facebook Lead Ads
-          </h2>
-          <p className="mb-4">
-            When you interact with Facebook Ads forms (Facebook Lead Ads), we
-            may receive your personal information directly from Meta, including
-            your name, email address, phone number, and other data you have
-            provided.
-          </p>
-          <p className="mb-4">
-            This information is used solely for the purposes described in this
-            policy. By submitting your data via a Facebook form, you agree that
-            Connect and Close may process it in accordance with this policy and
-            the{" "}
-            <a
-              href="https://www.facebook.com/policy.php"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-blue-600 hover:underline"
-            >
-              Facebook Privacy Policy
-            </a>
-            .
-          </p>
-
-          {/* 4. Purpose of Data Processing */}
-          <h2 className="text-2xl font-semibold text-gray-800 mt-8 mb-3">
-            4. Purpose of Data Processing
-          </h2>
-          <ul className="list-disc pl-5 space-y-2 mb-4">
-            <li>Send free content, resources, or guides requested by you</li>
-            <li>Manage user inquiries and requests</li>
-            <li>Send marketing communications if you have given your consent</li>
-            <li>
-              Analyze website behavior to improve user experience
-            </li>
-            <li>Comply with legal obligations</li>
-          </ul>
-
-          {/* 5. Cookies */}
-          <h2 className="text-2xl font-semibold text-gray-800 mt-8 mb-3">
-            5. Use of Cookies and Tracking Technologies
-          </h2>
-          <p className="mb-4">
-            We use cookies and similar technologies to understand how you
-            navigate our site. Tools we use include:
-          </p>
-          <ul className="list-disc pl-5 space-y-2 mb-4">
-            <li>
-              <strong>Google Analytics:</strong> to analyze website traffic.
-            </li>
-            <li>
-              <strong>Facebook Pixel:</strong> to track conversions and segment
-              audiences.
-            </li>
-          </ul>
-          <p className="mb-4">
-            You can configure your browser to block cookies, although some site
-            features may not be available.
-          </p>
-
-          {/* 6. Data Sharing */}
-          <h2 className="text-2xl font-semibold text-gray-800 mt-8 mb-3">
-            6. Data Sharing with Third Parties
-          </h2>
-          <ul className="list-disc pl-5 space-y-2 mb-4">
-            <li>With service providers who assist us (email, analytics, hosting)</li>
-            <li>As required by law</li>
-            <li>With your explicit consent</li>
-          </ul>
-
-          {/* 7. User Rights */}
-          <h2 className="text-2xl font-semibold text-gray-800 mt-8 mb-3">
-            7. User Rights
-          </h2>
-          <p className="mb-4">You may exercise the following rights:</p>
-          <ul className="list-disc pl-5 space-y-2 mb-4">
-            <li>Access your personal data</li>
-            <li>Correct inaccurate data</li>
-            <li>Request deletion of your data</li>
-            <li>Object to data processing</li>
-            <li>Request restriction of data use</li>
-            <li>Withdraw consent at any time</li>
-          </ul>
-          <p className="mb-4">
-            To do so, please email us at{" "}
-            <a
-              href="mailto:contact@connectandclose.com"
-              className="text-blue-600 hover:underline"
-            >
-              contact@connectandclose.com
-            </a>{" "}
-            and include a copy of your identification document to verify your
-            request.
-          </p>
-
-          {/* 8. Security Measures */}
-          <h2 className="text-2xl font-semibold text-gray-800 mt-8 mb-3">
-            8. Security Measures
-          </h2>
-          <p className="mb-4">
-            We implement appropriate technical and organizational measures to
-            protect your data from loss, misuse, or unauthorized access.
-          </p>
-
-          {/* 9. Changes */}
-          <h2 className="text-2xl font-semibold text-gray-800 mt-8 mb-3">
-            9. Changes to This Policy
-          </h2>
-          <p className="mb-4">
-            We reserve the right to update this Privacy Policy at any time.
-            Changes will be posted on this page, and if they are significant, we
-            will notify you by email or within the site.
-          </p>
-
-          <p className="italic">Last updated: April 30, 2025</p>
         </div>
       </main>
     </>
