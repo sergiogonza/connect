@@ -4,32 +4,32 @@ export default function PrivacyPolicy() {
   return (
     <>
       <Head>
-        <title>Política de Privacidad - Connect and Close</title>
+        <title>Privacy Policy - Connect and Close</title>
         <meta
           name="description"
-          content="Política de privacidad de Connect and Close"
+          content="Privacy policy of Connect and Close"
         />
       </Head>
       <main className="bg-gray-50 text-gray-800 px-6 py-12">
         <div className="max-w-3xl mx-auto bg-white p-8 shadow-md rounded-lg">
           <h1 className="text-3xl font-bold text-gray-900 mb-4">
-            Política de Privacidad
+            Privacy Policy
           </h1>
           <p className="mb-6">
-            <strong>Fecha de entrada en vigor:</strong> 30 de abril de 2025
+            <strong>Effective Date:</strong> April 30, 2025
           </p>
 
-          {/* 1. Responsable */}
+          {/* 1. Data Controller */}
           <h2 className="text-2xl font-semibold text-gray-800 mt-8 mb-3">
-            1. Responsable del Tratamiento de Datos
+            1. Data Controller
           </h2>
           <p>
-            El responsable del tratamiento de los datos personales es{" "}
-            <strong>Connect and Close</strong>, un emprendimiento independiente
-            sin registro formal de empresa.
+            The data controller for the processing of personal data is{" "}
+            <strong>Connect and Close</strong>, an independent venture without
+            formal company registration.
           </p>
           <p className="mb-4">
-            <strong>Correo electrónico de contacto:</strong>{" "}
+            <strong>Contact email:</strong>{" "}
             <a
               href="mailto:contact@connectandclose.com"
               className="text-blue-600 hover:underline"
@@ -38,134 +38,137 @@ export default function PrivacyPolicy() {
             </a>
           </p>
 
-          {/* 2. Datos que Recopilamos */}
+          {/* 2. Information We Collect */}
           <h2 className="text-2xl font-semibold text-gray-800 mt-8 mb-3">
-            2. Información que Recopilamos
+            2. Information We Collect
           </h2>
           <ul className="list-disc pl-5 space-y-2 mb-4">
-            <li>Nombre y apellidos</li>
-            <li>Correo electrónico</li>
-            <li>Número de teléfono</li>
-            <li>Información demográfica (edad, ubicación, etc.)</li>
-            <li>Dirección IP y datos de navegación</li>
-            <li>Datos proporcionados mediante formularios de Facebook Lead Ads</li>
-            <li>Información recopilada a través de cookies</li>
+            <li>First and last name</li>
+            <li>Email address</li>
+            <li>Phone number</li>
+            <li>Demographic information (age, location, etc.)</li>
+            <li>IP address and browsing data</li>
+            <li>Data provided through Facebook Lead Ads forms</li>
+            <li>Information collected via cookies</li>
           </ul>
 
-          {/* 3. Lead Ads */}
+          {/* 3. Facebook Lead Ads */}
           <h2 className="text-2xl font-semibold text-gray-800 mt-8 mb-3">
-            3. Recolección de datos desde Facebook Lead Ads
+            3. Data Collection from Facebook Lead Ads
           </h2>
           <p className="mb-4">
-            Cuando interactúas con formularios de anuncios en Facebook
-            (Facebook Lead Ads), podemos recibir directamente desde Meta tu
-            información personal, incluyendo nombre, correo electrónico,
-            número de teléfono y otros datos que hayas proporcionado.
+            When you interact with Facebook Ads forms (Facebook Lead Ads), we
+            may receive your personal information directly from Meta, including
+            your name, email address, phone number, and other data you have
+            provided.
           </p>
           <p className="mb-4">
-            Esta información se utiliza exclusivamente para los fines descritos
-            en esta política. Al enviar tus datos mediante un formulario de
-            Facebook, aceptas que Connect and Close los trate conforme a esta
-            política y a la{" "}
+            This information is used solely for the purposes described in this
+            policy. By submitting your data via a Facebook form, you agree that
+            Connect and Close may process it in accordance with this policy and
+            the{" "}
             <a
               href="https://www.facebook.com/policy.php"
               target="_blank"
               rel="noopener noreferrer"
               className="text-blue-600 hover:underline"
             >
-              política de privacidad de Facebook
+              Facebook Privacy Policy
             </a>
             .
           </p>
 
-          {/* 4. Finalidad */}
+          {/* 4. Purpose of Data Processing */}
           <h2 className="text-2xl font-semibold text-gray-800 mt-8 mb-3">
-            4. Finalidad del Tratamiento de Datos
+            4. Purpose of Data Processing
           </h2>
           <ul className="list-disc pl-5 space-y-2 mb-4">
-            <li>Enviar contenido gratuito, recursos o guías solicitadas</li>
-            <li>Gestionar consultas y solicitudes de usuarios</li>
+            <li>Send free content, resources, or guides requested by you</li>
+            <li>Manage user inquiries and requests</li>
+            <li>Send marketing communications if you have given your consent</li>
             <li>
-              Enviar comunicaciones comerciales si has dado tu consentimiento
+              Analyze website behavior to improve user experience
             </li>
-            <li>
-              Analizar comportamiento en el sitio web para mejorar la experiencia
-            </li>
-            <li>Cumplir con obligaciones legales</li>
+            <li>Comply with legal obligations</li>
           </ul>
 
           {/* 5. Cookies */}
           <h2 className="text-2xl font-semibold text-gray-800 mt-8 mb-3">
-            5. Uso de Cookies y Tecnologías de Seguimiento
+            5. Use of Cookies and Tracking Technologies
           </h2>
           <p className="mb-4">
-            Usamos cookies y tecnologías similares para entender cómo navegas en
-            nuestro sitio. Entre las herramientas utilizadas están:
+            We use cookies and similar technologies to understand how you
+            navigate our site. Tools we use include:
           </p>
           <ul className="list-disc pl-5 space-y-2 mb-4">
-            <li><strong>Google Analytics:</strong> para analizar tráfico web.</li>
-            <li><strong>Píxel de Facebook:</strong> para rastrear conversiones y segmentar audiencias.</li>
+            <li>
+              <strong>Google Analytics:</strong> to analyze website traffic.
+            </li>
+            <li>
+              <strong>Facebook Pixel:</strong> to track conversions and segment
+              audiences.
+            </li>
           </ul>
           <p className="mb-4">
-            Puedes configurar tu navegador para bloquear cookies, aunque algunas
-            funciones del sitio podrían no estar disponibles.
+            You can configure your browser to block cookies, although some site
+            features may not be available.
           </p>
 
-          {/* 6. Terceros */}
+          {/* 6. Data Sharing */}
           <h2 className="text-2xl font-semibold text-gray-800 mt-8 mb-3">
-            6. Compartición de Datos con Terceros
+            6. Data Sharing with Third Parties
           </h2>
           <ul className="list-disc pl-5 space-y-2 mb-4">
-            <li>Con proveedores que nos ayudan con servicios (email, análisis, hosting)</li>
-            <li>Por requerimientos legales</li>
-            <li>Con tu consentimiento explícito</li>
+            <li>With service providers who assist us (email, analytics, hosting)</li>
+            <li>As required by law</li>
+            <li>With your explicit consent</li>
           </ul>
 
-          {/* 7. Derechos */}
+          {/* 7. User Rights */}
           <h2 className="text-2xl font-semibold text-gray-800 mt-8 mb-3">
-            7. Derechos de los Usuarios
+            7. User Rights
           </h2>
-          <p className="mb-4">Puedes ejercer los siguientes derechos:</p>
+          <p className="mb-4">You may exercise the following rights:</p>
           <ul className="list-disc pl-5 space-y-2 mb-4">
-            <li>Acceder a tus datos personales</li>
-            <li>Rectificar datos incorrectos</li>
-            <li>Solicitar la eliminación de tus datos</li>
-            <li>Oponerte al tratamiento</li>
-            <li>Solicitar limitación del uso de datos</li>
-            <li>Retirar el consentimiento en cualquier momento</li>
+            <li>Access your personal data</li>
+            <li>Correct inaccurate data</li>
+            <li>Request deletion of your data</li>
+            <li>Object to data processing</li>
+            <li>Request restriction of data use</li>
+            <li>Withdraw consent at any time</li>
           </ul>
           <p className="mb-4">
-            Para ello, escríbenos a{" "}
+            To do so, please email us at{" "}
             <a
               href="mailto:contact@connectandclose.com"
               className="text-blue-600 hover:underline"
             >
               contact@connectandclose.com
             </a>{" "}
-            e incluye una copia de tu documento de identidad para verificar tu
-            solicitud.
+            and include a copy of your identification document to verify your
+            request.
           </p>
 
-          {/* 8. Seguridad */}
+          {/* 8. Security Measures */}
           <h2 className="text-2xl font-semibold text-gray-800 mt-8 mb-3">
-            8. Medidas de Seguridad
+            8. Security Measures
           </h2>
           <p className="mb-4">
-            Implementamos medidas técnicas y organizativas adecuadas para
-            proteger tus datos contra pérdida, mal uso o acceso no autorizado.
+            We implement appropriate technical and organizational measures to
+            protect your data from loss, misuse, or unauthorized access.
           </p>
 
-          {/* 9. Cambios */}
+          {/* 9. Changes */}
           <h2 className="text-2xl font-semibold text-gray-800 mt-8 mb-3">
-            9. Cambios en esta Política
+            9. Changes to This Policy
           </h2>
           <p className="mb-4">
-            Nos reservamos el derecho de actualizar esta Política de Privacidad
-            en cualquier momento. Publicaremos los cambios en esta página y, si
-            son relevantes, lo notificaremos por email o dentro del sitio.
+            We reserve the right to update this Privacy Policy at any time.
+            Changes will be posted on this page, and if they are significant, we
+            will notify you by email or within the site.
           </p>
 
-          <p className="italic">Última actualización: 30 de abril de 2025</p>
+          <p className="italic">Last updated: April 30, 2025</p>
         </div>
       </main>
     </>
